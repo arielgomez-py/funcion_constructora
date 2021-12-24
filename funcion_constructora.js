@@ -12,8 +12,8 @@ for(var i = 0; i < marcas.length; i++){
     for(var j = 0; j < modelos.length; j++){
         for(var k = 0; k < annos.length; k++){
             var autoNuevo = new auto(marcas[i],modelos[j], annos[k]);
-            if(marcas.indexOf(marcas[i]) === modelos.indexOf(modelos[j]) &&  modelos.indexOf(modelos[j]), annos.indexOf(annos[k]) ){
-                console.log(marcas.indexOf(marcas[i]), modelos.indexOf(modelos[j]), annos.indexOf(annos[k]));
+            if(marcas.indexOf(marcas[i]) === modelos.indexOf(modelos[j]) &&  modelos.indexOf(modelos[j]) === annos.indexOf(annos[k]) ){
+                console.log(autoNuevo)
             }  
         }
     }   
